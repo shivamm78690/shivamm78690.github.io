@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-image: url(images/back2.jpeg);
+	background-size: cover;
+	
+}
+.mynav
+{
+	background: #fff !important;
+}
+.navbar-brand img
+{
+	margin-right: 5px;
+	margin-top: -20px;
+}
+.navbar-brand 
+{
+	font-family: 'Acme', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.mynav a
+{
+	border-bottom: 2px solid transparent;
+}
+
+.mynav a:hover
+{
+	border-bottom: 2px solid transparent;
+}
+
+

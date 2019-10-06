@@ -1,0 +1,103 @@
+@charset "utf-8";
+body{
+  margin:0;
+  background-image: url(../images/deskk.jpeg);
+	background-size: auto;
+  font:600 16px/18px 'Open Sans',sans-serif;
+}
+.header {
+  overflow: hidden;
+  background-color: #0F13DB;
+  padding: 10px 10px;
+  font:600 16px/18px 'Open Sans',sans-serif;
+  box-shadow: 0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+.admin{
+	background-color: #1F48E5;
+}
+.header a {
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.header a:hover {
+  background-color:#1300BB;
+  color: #fff;
+}
+.header-right
+{
+	float: right;
+}
+
+.container1
+{
+	width: auto;
+	height: 50px;
+	background-color: #1161ee;
+	border: 2px solid #1161ee;
+	border-radius: 20px;
+	padding: 2px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top:30px;
+	margin-bottom: 2px;
+	box-shadow: 0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+	
+}
+
+.cont1_lab
+{
+	text-align: center;
+	padding: 16px;
+	font-size: 22px;
+}
+.container2
+{
+	width: auto;
+	height: 700px;
+	background-color: rgba(21,63,223,0.72);
+	border: 2px solid #1161ee;
+	border-radius: 20px;
+	margin-top:7px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	
+}
+
+.admin_box
+{
+	width: 70px;
+	height: 70px;
+	border: 1px solid #1161ee;
+	margin-top: 130px;
+	margin-bottom: 30px;
+	margin-left: 70px;
+	margin-right: 150px;
+	
+}
+
+.ver_line
+{
+	border-left: 2px solid #C3C9DE;
+  height: 660px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+	margin-top: 195px;
+  top: 0;
+	
+}
+
+
