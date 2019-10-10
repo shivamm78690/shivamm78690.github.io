@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* .logo-image
+{
+	position: relative;
+	width: 46px;
+    height: 46px;
+    border-radius: 50%;;
+    margin-top: -6px;
+} */
+body
+{
+	background-color: #000000;
+}
+.navbar
+{
+	box-shadow: 0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+	border-radius: 3px;
+	margin: 2px;
+}
+.navvv
+{
+	font-family: 'Righteous', cursive;
+	font-size: 20px;
+}
+.bg-dark
+{
+	background-color: rgba(62,35,255, 23) !important;
+}
+
+.carousel{
+	
+    background: #2f4357;
+    margin-top: 1px;
+	border-radius: 3px;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 320px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.pagecarousel
+{
+	margin: 2px;
+	
+}
+
+.row
+{
+	display: flex;
+}
+
+.col-sm
+{
+	border: thin dashed #3516CF;
+	margin: 5px;
+	margin-top: 2px;
+	padding: 10px;
+	height: 200px;
+	background-color: aliceblue;
+}
+
+/*.label{
+	
+	text-align: center;
+	border-radius: 2px;
+	margin: 2px;
+	margin-top: 5px;
+	padding: 7px;
+	margin-left: 385px;
+	margin-right: 385px;
+	text-emphasis: 20px;
+} */
+
+.panel
+{
+	margin-top: 30px;
+	border: thin dashed #1B76F1;
+	border-radius: 5px;
+	padding: 3px;
+	background:#434343;
+}
+.panel-heading
+{
+	text-align: center;
+	color: aliceblue;
+	font-size: 30px;
+}
+
+.panel-footer
+{
+	text-align: center;
+}
+
+.about-card
+{
+	margin-top: 30px;
+}
+
+.card
+{
+	margin: 37px;
+}
+
+.footer
+{
+	background-color: cadetblue;
+}
